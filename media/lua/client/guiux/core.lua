@@ -5,8 +5,8 @@ newGUI = {
 
 local function purgeVanillaUI()
     local _ui = UIManager.getUI();
-    for i in _ui do
-        print(i);
+    for index=0, _ui:size() -1 do
+        print(index, _ui:get(index));
     end
 end
 
