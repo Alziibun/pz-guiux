@@ -8,4 +8,4 @@ function openBag(_key)
 
 end
 
-Events.onKeyPressed.Add(openBag)
+Events.OnKeyPressed.Add(openBag)
