@@ -4,7 +4,10 @@ newGUI = {
 };
 
 local function purgeVanillaUI()
-    print(UIManager.getUI())
+    local _ui = UIManager.getUI();
+    for i in _ui do
+        print(i);
+    end
 end
 
 Events.OnCreateUI.Add(purgeVanillaUI)
