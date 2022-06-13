@@ -1,4 +1,4 @@
-invUI = UIManager:getInv();
+invUI = UIManager():getInv()
 
 function openBag(_key)
     local player = getSpecificPlayer(0);
