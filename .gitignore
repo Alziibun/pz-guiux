@@ -1,7 +1,21 @@
+### Zomboid ###
+lib/
+logs/
+
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+local.properties
+version.properties
+.idea/
+
+### Gradle ###
+build.gradle
+.gradle/
+gradle/wrapper
+gradlew
+gradlew.bat
 
 ### Eclipse ###
 .apt_generated
