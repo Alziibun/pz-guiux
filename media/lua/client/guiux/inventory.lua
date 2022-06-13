@@ -1,9 +1,7 @@
 function openBag(_key)
     local player = getSpecificPlayer(0);
-    if _key == 73 then
-        player:say("Open bag!");
-        else
-        player:say("A button was pressed");
+    if _key == 73 then -- open bag when the player presses I (73)
+        player:Say("Open bag!");
     end
 
 end
