@@ -2,3 +2,4 @@
 newGUI = {
     gameVersion = getCore():getVersionNumber();
 };
+
